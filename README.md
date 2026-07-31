@@ -70,7 +70,7 @@ python -m http.server 8000
 
 ## 👥 Répartition du travail (binôme)
 
-| Membre A | Membre B |
+| Membre Fustel | Membre Chriss|
 |---|---|
 | `index.html` + navigation globale | `projets.html` + `evenements.html` |
 | `script.js` : menu responsive, compteur animé | `script.js` : filtre de projets, validation formulaire |
