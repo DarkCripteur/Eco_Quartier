@@ -2,7 +2,7 @@
 
 Site vitrine d'**EcoQuartier**, association fictive d'écologie urbaine à l'échelle d'un quartier (jardins partagés, compostage collectif, ateliers zéro-déchet, mobilité douce).
 
-Projet réalisé dans le cadre du module *Versioning* — ESITEC Licence 1 Génie Informatique. ceux ci est ume odification de test 
+Projet réalisé dans le cadre du module *Versioning* — ESITEC Licence 1 tronc commun d'Information
 
 ##  Objectif du site
 
@@ -59,7 +59,11 @@ Deux composants de bouton réutilisables (`.btn-primary`, `.btn-outline`), avec 
 | Compteur animé | Fondation, bénévoles, jardins créés, ateliers/an | `about.html` |
 | Validation de formulaire | Le bouton "Envoyer" reste désactivé tant que le formulaire n'est pas valide ; messages d'erreur par champ | `contact.html` |
 
+<<<<<<< HEAD
 ## Lancer le site
+=======
+##  Lancer le site
+>>>>>>> origin/feature/chriss
 
 Aucune dépendance ni build : ouvrez simplement `index.html` dans un navigateur, ou servez le dossier avec un petit serveur statique, par exemple :
 
