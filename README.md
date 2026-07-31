@@ -16,11 +16,11 @@ Projet réalisé dans le cadre du module *Versioning* — ESITEC Licence 1 Géni
 ```
 ecoquartier/
 ├── index.html         # Accueil : présentation, chiffres clés animés, CTA
-├── projets.html        # Liste des actions avec filtres par catégorie
-├── evenements.html     # Agenda des événements à venir / passés
-├── contact.html         # Formulaire de bénévolat / contact avec validation
-├── style.css            # Feuille de style commune (design system)
-├── script.js             # Interactions JavaScript
+├── about.html          # À propos : histoire, mission, valeurs de l'association
+├── projets.html         # Liste des actions (filtres par catégorie) + agenda des événements
+├── contact.html          # Formulaire de bénévolat / contact avec validation
+├── style.css              # Feuille de style commune (design system)
+├── script.js               # Interactions JavaScript
 ├── README.md
 └── .gitignore
 ```
@@ -56,6 +56,7 @@ Deux composants de bouton réutilisables (`.btn-primary`, `.btn-outline`), avec 
 | Menu responsive | Le bouton burger ouvre/ferme la navigation sur mobile | Toutes les pages |
 | Compteur animé | Les chiffres clés s'incrémentent au chargement (via `IntersectionObserver`) | `index.html` |
 | Filtre de projets | Boutons filtres (Tous, Jardins, Compost, Ateliers, Mobilité) qui affichent/masquent les cartes | `projets.html` |
+| Compteur animé | Fondation, bénévoles, jardins créés, ateliers/an | `about.html` |
 | Validation de formulaire | Le bouton "Envoyer" reste désactivé tant que le formulaire n'est pas valide ; messages d'erreur par champ | `contact.html` |
 
 ## 🚀 Lancer le site
@@ -72,9 +73,9 @@ python -m http.server 8000
 
 | Membre A | Membre B |
 |---|---|
-| `index.html` + navigation globale | `projets.html` + `evenements.html` |
+| `index.html` + navigation globale | `projets.html` (actions + agenda) |
 | `script.js` : menu responsive, compteur animé | `script.js` : filtre de projets, validation formulaire |
-| Structure HTML globale | `contact.html` |
+| Structure HTML globale + `about.html` | `contact.html` |
 | CSS des boutons (`.btn-primary`) | CSS responsive / mise en page |
 | — | `README.md` |
 
