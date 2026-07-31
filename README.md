@@ -1,17 +1,17 @@
-# 🌱 EcoQuartier
+#  EcoQuartier
 
 Site vitrine d'**EcoQuartier**, association fictive d'écologie urbaine à l'échelle d'un quartier (jardins partagés, compostage collectif, ateliers zéro-déchet, mobilité douce).
 
-Projet réalisé dans le cadre du module *Versioning* — ESITEC Licence 1 Génie Informatique.
+Projet réalisé dans le cadre du module *Versioning* — ESITEC Licence 1 tronc commun d'Information
 
-## 🎯 Objectif du site
+##  Objectif du site
 
 - Présenter l'association et sa mission
 - Mettre en valeur les actions et projets en cours
 - Permettre l'inscription des bénévoles via un formulaire
 - Donner envie de s'engager localement
 
-## 📁 Structure du projet
+##  Structure du projet
 
 ```
 ecoquartier/
@@ -25,9 +25,9 @@ ecoquartier/
 └── .gitignore
 ```
 
-## 🎨 Identité visuelle
+##  Identité visuelle
 
-> ⚠️ **Écart avec le cahier des charges.** Le sujet impose une palette verte/beige nature. Sur demande explicite, le site utilise désormais un thème sombre à accent violet (ci-dessous). Si l'évaluation porte sur le respect strict de la palette imposée, revenir à la version verte/beige avant rendu (voir historique Git) ou le signaler à l'enseignant.
+>  **Écart avec le cahier des charges.** Le sujet impose une palette verte/beige nature. Sur demande explicite, le site utilise désormais un thème sombre à accent violet (ci-dessous). Si l'évaluation porte sur le respect strict de la palette imposée, revenir à la version verte/beige avant rendu (voir historique Git) ou le signaler à l'enseignant.
 
 | Usage | Couleur | Code |
 |---|---|---|
@@ -49,7 +49,7 @@ Deux composants de bouton réutilisables (`.btn-primary`, `.btn-outline`), avec 
 - **Apparition au scroll** (`.reveal`) : titres et blocs clés apparaissent en fondu + léger décalage vertical via `IntersectionObserver`.
 - **Bordure de carte qui se dessine** : les carte (`.card`, `.event-card`, `.form-card`) affichent un contour pointillé qui se trace progressivement à l'apparition.
 
-## ⚙️ Fonctionnalités JavaScript
+##  Fonctionnalités JavaScript
 
 | Interaction | Description | Page |
 |---|---|---|
@@ -59,7 +59,7 @@ Deux composants de bouton réutilisables (`.btn-primary`, `.btn-outline`), avec 
 | Compteur animé | Fondation, bénévoles, jardins créés, ateliers/an | `about.html` |
 | Validation de formulaire | Le bouton "Envoyer" reste désactivé tant que le formulaire n'est pas valide ; messages d'erreur par champ | `contact.html` |
 
-## 🚀 Lancer le site
+##  Lancer le site
 
 Aucune dépendance ni build : ouvrez simplement `index.html` dans un navigateur, ou servez le dossier avec un petit serveur statique, par exemple :
 
@@ -69,7 +69,7 @@ npx serve .
 python -m http.server 8000
 ```
 
-## 👥 Répartition du travail (binôme)
+##  Répartition du travail (binôme)
 
 | Membre Fustel | Membre Chriss|
 |---|---|
@@ -81,7 +81,7 @@ python -m http.server 8000
 
 *(à adapter selon la répartition réelle retenue par le binôme)*
 
-## 🔀 Workflow Git
+##  Workflow Git
 
 - Développement sur des branches `feature/prenom` (minimum 5 commits par personne)
 - Deux conflits volontaires à résoudre (CSS et README) lors de la synchronisation
@@ -91,7 +91,7 @@ python -m http.server 8000
 git log --graph --all --oneline
 ```
 
-## ✅ Contraintes techniques couvertes
+##  Contraintes techniques couvertes
 
 - [x] 4 pages HTML minimum, reliées par une navigation fonctionnelle
 - [x] 1 fichier CSS commun
