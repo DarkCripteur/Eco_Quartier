@@ -1,0 +1,14 @@
+# Variables d'environnement
+.env
+.env.*
+
+# Logs
+*.log
+
+# Système d'exploitation
+.DS_Store
+Thumbs.db
+
+# Éditeurs
+.vscode/
+.idea/
