@@ -15,9 +15,9 @@
   --color-bg-alt: #161b22;
   --color-text: #e6e6e6;
   --color-text-muted: #a0a0a0;
-  --color-error: #ff6b57;
-  --color-border: rgba(255, 255, 255, 0.08);
-  --color-disabled: #3a3f47;
+  --color-error: #7a2f25;
+  --color-border: rgba(190, 166, 166, 0.08);
+  --color-disabled: #264981;
 
   /* Typographie */
   --font-heading: 'Poppins', system-ui, sans-serif;
@@ -159,6 +159,7 @@ section { padding: 4rem 0; }
   cursor: not-allowed;
   transform: none;
   box-shadow: none;
+
 }
 .btn-primary.btn-success { background-color: var(--color-primary-dark); }
 
@@ -177,6 +178,7 @@ section { padding: 4rem 0; }
   font-size: 0.95rem;
   cursor: pointer;
   transition: all 0.2s ease;
+
 }
 .btn-outline:hover { background-color: var(--color-primary); color: #ffffff; }
 .btn-outline:active { transform: translateY(1px); }

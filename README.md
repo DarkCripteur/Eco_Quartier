@@ -47,7 +47,7 @@ Deux composants de bouton réutilisables (`.btn-primary`, `.btn-outline`), avec 
 
 - **Orbe qui suit le curseur** (`#cursor-glow`) : halo violet en fondu qui suit le pointeur avec un effet d'inertie, désactivé sur tactile et si `prefers-reduced-motion` est activé.
 - **Apparition au scroll** (`.reveal`) : titres et blocs clés apparaissent en fondu + léger décalage vertical via `IntersectionObserver`.
-- **Bordure de carte qui se dessine** : les cartes (`.card`, `.event-card`, `.form-card`) affichent un contour pointillé qui se trace progressivement à l'apparition.
+- **Bordure de carte qui se dessine** : les carte (`.card`, `.event-card`, `.form-card`) affichent un contour pointillé qui se trace progressivement à l'apparition.
 
 ## ⚙️ Fonctionnalités JavaScript
 
@@ -71,7 +71,7 @@ python -m http.server 8000
 
 ## 👥 Répartition du travail (binôme)
 
-| Membre A | Membre B |
+| Membre Fustel | Membre Chriss|
 |---|---|
 | `index.html` + navigation globale | `projets.html` (actions + agenda) |
 | `script.js` : menu responsive, compteur animé | `script.js` : filtre de projets, validation formulaire |
